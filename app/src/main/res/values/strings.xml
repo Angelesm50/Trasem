@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Trasem</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="helpItem">Ayuda</string>
+
+    <!-- Describir cada elemento de IU splash screem-->
+    <string name="trasemDescription">Traductor de señas mexicanas</string>
+
+    <!-- Describir cada elemento de IU fragment_main-->
+    <string name="imgVwAvatarUser">Avatar de usuario</string>
+    <string name="imgVwIsotipo">Isotipo trasem</string>
+    <string name="txtNickname">Nombre del usuario</string>
+    <string name="txtStudy">Estudiar</string>
+    <string name="txtConnect">Conectar</string>
+    <string name="descr_overflow_button">Conectar</string>
+    <string name="title_activity_help_tab">HelpTabActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+</resources>
