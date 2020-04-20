@@ -10,10 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activities.HelpTabActivity"
-            android:label="@string/title_activity_help_tab"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity
             android:name=".activities.SplashActivity"
             android:theme="@style/SplashScreen">
             <intent-filter>
