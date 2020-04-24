@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".fragments.MainFragment"
-    android:background="@color/colorLightGrayF2">
+    android:background="@color/light_greenf5"
+    tools:context=".fragments.MainFragment">
 
     <ImageView
-        android:id="@+id/uiAvatarImage"
+        android:id="@+id/iv_main_user_avatar"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_marginTop="16dp"
-        android:src="@drawable/avatar_woman"
-        android:contentDescription="@string/imgVwAvatarUser" />
+        android:contentDescription="@string/imgVwAvatarUser"
+        android:src="@drawable/avatar_woman" />
+
     <ImageView
-        android:id="@+id/uiIsotipo"
+        android:id="@+id/iv_main_icon_trasem"
         android:layout_width="60dp"
         android:layout_height="50dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginLeft="16dp"
         android:layout_marginStart="16dp"
-        android:src="@drawable/trasem_isologo_min"
-        android:contentDescription="@string/imgVwIsotipo"/>
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/imgVwIsotipo"
+        android:src="@drawable/trasem_isologo_min" />
 
     <TextView
-        android:id="@+id/uiTextNickName"
+        android:id="@+id/tv_main_username"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginTop="175dp"
         android:gravity="center_horizontal"
         android:text="@string/txtNickname"
-        android:textColor="@color/colorDarkBlue"
+        android:textColor="@color/dark_blue"
         android:textSize="25sp"
         android:textStyle="bold" />
 
     <GridLayout
-        android:id="@+id/uiMainGrid"
+        android:id="@+id/gl_main_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
@@ -44,20 +45,21 @@
         android:layout_marginTop="280dp"
         android:layout_marginBottom="80dp"
         android:columnCount="1"
-        android:padding="4dp"
         android:rowCount="2">
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/uiCardLearn"
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv_main_learn"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_height="21dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="16dp"
             android:foreground="?selectableItemBackground"
-            app:cardBackgroundColor="@color/colorWhite"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/light_orange"
+            app:strokeWidth="2dp"
             tools:ignore="UnusedAttribute">
 
             <TextView
@@ -68,23 +70,25 @@
                 android:padding="5dp"
                 android:text="@string/txtStudy"
                 android:textAlignment="center"
-                android:textColor="@color/colorLightOrange"
+                android:textColor="@color/light_orange"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
-        </androidx.cardview.widget.CardView>
+        </com.google.android.material.card.MaterialCardView>
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/uiCardGloveBT"
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cv_main_connect"
             android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_height="30dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
             android:layout_margin="16dp"
             android:foreground="?selectableItemBackground"
-            app:cardBackgroundColor="@color/colorWhite"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="6dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="0dp"
+            app:strokeColor="@color/aqua_green"
+            app:strokeWidth="2dp"
             tools:ignore="UnusedAttribute">
 
             <TextView
@@ -95,11 +99,11 @@
                 android:padding="5dp"
                 android:text="@string/txtConnect"
                 android:textAlignment="center"
-                android:textColor="@color/colorAquaGreen"
+                android:textColor="@color/aqua_green"
                 android:textSize="25sp"
                 android:textStyle="bold" />
 
-        </androidx.cardview.widget.CardView>
+        </com.google.android.material.card.MaterialCardView>
 
     </GridLayout>
 

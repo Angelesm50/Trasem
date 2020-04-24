@@ -3,29 +3,33 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="holo_dark">#ff000000</color>
+    <color name="holo_light">#fff3f3f3</color>
 
-    <color name="colorWhite">#FFFFFF</color>
-    <color name="colorWhiteBlue">#E8F6FF</color>
-    <color name="colorPrimaryBlue">#017DFE</color>
-    <color name="colorClassicBlue">#0F4C81</color>
-    <color name="colorDarkBlue">#193651</color>
-    <color name="colorBlueGreen">#19CDCC</color>
-    <color name="colorAquaGreen">#4FBF9F</color>
-    <color name="colorLightGreen">#04CC76</color>
-    <color name="colorLightGrayF2">#F2F2F2</color>
-    <color name="colorLightGrayF3">#F3F3F3</color>
-    <color name="colorLightGrayF4">#F4F4F4</color>
-    <color name="colorLightGray9D">#9D9D9D</color>
-    <color name="colorLightRed">#F35554</color>
-    <color name="colorOrange">#FF9926</color>
-    <color name="colorLightOrange">#FDBF5E</color>
+    <color name="white">#fff</color>
+    <color name="translucent">#00000000</color>
+    <color name="light_sky_blue">#e8f6ff</color>
+    <color name="primary_blue">#017dfe</color>
+    <color name="classic_blue">#0f4c81</color>
+    <color name="dark_blue">#193651</color>
+    <color name="blue_green">#19cdcc</color>
+    <color name="aqua_green">#4fbf9f</color>
+    <color name="light_green">#04cc76</color>
+    <color name="light_grayf2">#f2f2f2</color>
+    <color name="light_grayf3">#f3f3f3</color>
+    <color name="light_grayf4">#f4f4f4</color>
+    <color name="light_greenf5">#f5fcfc</color>
+    <color name="light_gray9d">#9d9d9d</color>
+    <color name="light_red">#f35554</color>
+    <color name="orange">#ff9926</color>
+    <color name="light_orange">#fdbf5e</color>
 
-    <color name="colorLightYellow">#FFCE13</color>
-    <color name="colorLightPurple">#8561F6</color>
+    <color name="light_yellow">#ffce13</color>
+    <color name="light_purple">#8561f6</color>
 
-    <color name="colorGoogleRed">#E2312A</color>
-    <color name="colorGoogleBlue">#376EF0</color>
-    <color name="colorGoogleYellow">#FECC13</color>
-    <color name="colorGoogleGreen">#36A954</color>
+    <color name="google_red">#e2312a</color>
+    <color name="google_blue">#376ef0</color>
+    <color name="google_yellow">#fecc13</color>
+    <color name="google_green">#36a954</color>
 
 </resources>

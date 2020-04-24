@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.SplashActivity"
-    android:background="@color/colorWhiteBlue">
+    android:background="@color/light_sky_blue"
+    tools:context=".activities.SplashActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/iv_splash_splash"
         android:layout_width="264dp"
         android:layout_height="347dp"
         android:contentDescription="@string/trasemDescription"
@@ -16,6 +16,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/trasem_isologo"
-        tools:ignore="MissingConstraints" />
+        app:srcCompat="@drawable/trasem_isologo" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

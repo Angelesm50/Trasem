@@ -103,7 +103,8 @@ public class MainFragment extends Fragment {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.uiHelp:
-                Toast.makeText(getContext(),"Help",Toast.LENGTH_LONG).show();
+//                Toast.makeText(getContext(),"Help",Toast.LENGTH_LONG).show();
+                interfaceCommunicateFragments.helpItemMenu();
                 return true;
 
             default:
@@ -117,8 +118,8 @@ public class MainFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_main, container, false);
-        cardLearn = view.findViewById(R.id.uiCardLearn);
-        cardGloveBluetooth = view.findViewById(R.id.uiCardGloveBT);
+        cardLearn = view.findViewById(R.id.cv_main_learn);
+        cardGloveBluetooth = view.findViewById(R.id.cv_main_connect);
         mainEvents();
         return view;
     }
