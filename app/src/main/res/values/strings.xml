@@ -11,12 +11,8 @@
     <string name="imgVwAvatarUser">Avatar de usuario</string>
     <string name="imgVwIsotipo">Isotipo trasem</string>
     <string name="txtNickname">Nombre del usuario</string>
-    <string name="txtStudy">Estudiar</string>
-    <string name="txtConnect">Conectar</string>
-    <string name="descr_overflow_button">Conectar</string>
-    <string name="title_activity_help_tab">HelpTabActivity</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
+    <string name="study">Estudiar</string>
+    <string name="connect">Conectar</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="lorem_ipsum">Lorem Ipsum</string>
@@ -24,7 +20,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="welcome">¡Bienvenido(a)!</string>
-    <string name="meetApp">A continuación, conoce la aplicación:</string>
+    <string name="meet_app">A continuación, conoce la aplicación:</string>
     <string name="close">Cerrar</string>
     <string name="skip">Omitir</string>
 </resources>

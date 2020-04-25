@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".activities.AlphabetMslActivity"
+            android:theme="@style/SplashScreen">
+        </activity>
+        <activity
             android:name=".activities.MainSlideHelpActivity"
             android:theme="@style/SplashScreen">
         </activity>

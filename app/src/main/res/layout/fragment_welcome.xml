@@ -36,7 +36,7 @@
         android:gravity="center"
         android:lineSpacingMultiplier="1.2"
         android:padding="16dp"
-        android:text="@string/meetApp"
+        android:text="@string/meet_app"
         android:textColor="@android:color/primary_text_light"
         android:textSize="16sp" />
 

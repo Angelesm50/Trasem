@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_greenf5"
     tools:context=".fragments.MainFragment">
 
     <ImageView
@@ -68,7 +67,7 @@
                 android:layout_gravity="center"
                 android:drawableTop="@drawable/book_light_orange_64px"
                 android:padding="5dp"
-                android:text="@string/txtStudy"
+                android:text="@string/study"
                 android:textAlignment="center"
                 android:textColor="@color/light_orange"
                 android:textSize="25sp"
@@ -97,7 +96,7 @@
                 android:layout_gravity="center"
                 android:drawableTop="@drawable/glove_aqua_green_64px"
                 android:padding="5dp"
-                android:text="@string/txtConnect"
+                android:text="@string/connect"
                 android:textAlignment="center"
                 android:textColor="@color/aqua_green"
                 android:textSize="25sp"
