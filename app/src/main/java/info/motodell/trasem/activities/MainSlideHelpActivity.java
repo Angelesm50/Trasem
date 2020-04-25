@@ -1,10 +1,7 @@
 package info.motodell.trasem.activities;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.text.Html;
-import android.view.View;
-import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -36,8 +33,7 @@ public class MainSlideHelpActivity extends AppCompatActivity {
     /**
      * The pager adapter, which provides the pages to the view pager widget.
      */
-    private FragmentStateAdapter pagerAdapter;
-
+    FragmentStateAdapter pagerAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,17 +49,18 @@ public class MainSlideHelpActivity extends AppCompatActivity {
         addSlidePoints();
         mPager.registerOnPageChangeCallback(viewCallback);
     }
-    private TextView[] addSlidePoints() {
+
+    public void addSlidePoints() {
         slidePoints = new TextView[NUM_PAGES];
         for (int i = 0; i < slidePoints.length; i++) {
             slidePoints[i] = new TextView(this);
             slidePoints[i].setText(Html.fromHtml("&#8226;"));
-            slidePoints[i].setTextSize(40);
+            slidePoints[i].setTextSize(35);
             slidePoints[i].setTextColor(getResources().getColor(R.color.light_gray9d));
             slidePage.addView(slidePoints[i]);
         }
-        return slidePoints;
     }
+
     ViewPager2.OnPageChangeCallback viewCallback = new ViewPager2.OnPageChangeCallback() {
         @Override
         public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
@@ -97,7 +94,7 @@ public class MainSlideHelpActivity extends AppCompatActivity {
      * sequence.
      */
     private static class ScreenSlidePagerAdapter extends FragmentStateAdapter {
-        public ScreenSlidePagerAdapter(FragmentActivity fa) {
+        private ScreenSlidePagerAdapter(FragmentActivity fa) {
             super(fa);
         }
 
